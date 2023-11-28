@@ -24,7 +24,10 @@
   font-size: 14px;
   font-weight: bold;
 }
-
+.create-event{
+  position: relative;
+  top:50px;
+}
 .category .card-text {
   color: rgb(90, 89, 89);
 }

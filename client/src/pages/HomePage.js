@@ -107,10 +107,10 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"PrimeCart"}>
+    <Layout title={"ClubHub"}>
       {/* banner image */}
       <img
-        src="/images/banner7.jpg"
+        src="/images/6.jpg"
         className="banner-img"
         alt="bannerimage"
         width={"100%"}
@@ -118,7 +118,7 @@ const HomePage = () => {
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page">
         <div className="col-md-3 filters">
-          <h4 className="text-center">Filter By Category</h4>
+          <h4 className="text-center">Filter By Club</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
               <Checkbox
@@ -130,7 +130,7 @@ const HomePage = () => {
             ))}
           </div>
           {/* price filter */}
-          <h4 className="text-center mt-4">Filter By Price</h4>
+          <h4 className="text-center mt-4">Filter By Year</h4>
           <div className="d-flex flex-column">
             <Radio.Group onChange={(e) => setRadio(e.target.value)}>
               {Prices?.map((p) => (
@@ -150,7 +150,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="col-md-9 ">
-          <h1 className="text-center">All Products</h1>
+          <h1 className="text-center">Clubs</h1>
           <div className="d-flex flex-wrap">
             {products?.map((p) => (
               <div className="card m-2" key={p._id}>
@@ -164,8 +164,6 @@ const HomePage = () => {
                     <h5 className="card-title">{p.name}</h5>
                     <h5 className="card-title card-price">
                       {p.price.toLocaleString("en-US", {
-                        style: "currency",
-                        currency: "USD",
                       })}
                     </h5>
                   </div>
@@ -178,19 +176,6 @@ const HomePage = () => {
                       onClick={() => navigate(`/product/${p.slug}`)}
                     >
                       More Details
-                    </button>
-                    <button
-                      className="btn btn-dark ms-1"
-                      onClick={() => {
-                        setCart([...cart, p]);
-                        localStorage.setItem(
-                          "cart",
-                          JSON.stringify([...cart, p])
-                        );
-                        toast.success("Item Added to cart");
-                      }}
-                    >
-                      ADD TO CART
                     </button>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ const CategoryForm = ({ handleSubmit, value, setValue }) => {
           <input
             type="text"
             className="form-control"
-            placeholder="Enter new category"
+            placeholder="Enter new club"
             value={value}
             onChange={(e) => setValue(e.target.value)}
           />

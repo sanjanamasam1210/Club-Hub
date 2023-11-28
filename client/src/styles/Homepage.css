@@ -1,7 +1,10 @@
 .banner-img {
   margin-top: 60px;
 }
-
+.dropdown-item{
+  font-size: 14px;
+  padding: 0 4px;
+}
 .home-page h1 {
   color: #DBA39A;
   font-family: "Playfair Display", serif;
