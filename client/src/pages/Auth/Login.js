@@ -40,7 +40,9 @@ const Login = () => {
   };
   return (
     <Layout title="Login - ClubHub">
-      <div className="form-container " style={{ minHeight: "90vh" }}>
+      <div className="form-container " style={{ minHeight: "90vh",            backgroundImage: 'url("client/public/images/3.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',}}>
         <form onSubmit={handleSubmit}>
           <h4 className="title">LOGIN FORM</h4>
 

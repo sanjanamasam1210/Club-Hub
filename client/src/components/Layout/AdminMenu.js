@@ -22,7 +22,7 @@ const AdminMenu = () => {
             to="/dashboard/admin/products"
             className="list-group-item list-group-item-action"
           >
-            Clubs
+            Events
           </NavLink>
         </div>
       </div>

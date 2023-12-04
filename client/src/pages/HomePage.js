@@ -163,8 +163,7 @@ const HomePage = () => {
                   <div className="card-name-price">
                     <h5 className="card-title">{p.name}</h5>
                     <h5 className="card-title card-price">
-                      {p.price.toLocaleString("en-US", {
-                      })}
+                      {p.price}
                     </h5>
                   </div>
                   <p className="card-text ">
@@ -172,7 +171,7 @@ const HomePage = () => {
                   </p>
                   <div className="card-name-price">
                     <button
-                      className="btn btn-info ms-1"
+                      className="btn ms-1"
                       onClick={() => navigate(`/product/${p.slug}`)}
                     >
                       More Details

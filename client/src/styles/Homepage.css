@@ -87,3 +87,19 @@ filters
   font-size: 20px !important;
   background-color:#F0DBDB !important;
 }
+.card-name-price .btn:hover{
+  background-color: #F0DBDB;
+}
+.card-body .btn:hover{
+  background-color: #F0DBDB;
+}
+.card-name-price .btn{
+  background-color: #DBA39A;
+}
+.card-body .btn{
+  background-color: #DBA39A;
+}
+.search-form .btn:hover{
+  background-color: #e1cece;
+}
+

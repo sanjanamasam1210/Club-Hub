@@ -18,10 +18,10 @@ const Contact = () => {
           Reach out to us anytime. We're here to assist you with any inquiries, concerns, or feedback you may have.
           </p>
           <p className="mt-3">
-            <BiMailSend /> : sanjanamasam1210@gmail.com | thakurmeghana2004@gmail.com
+            <BiMailSend /> : sanjanamasam1210@gmail.com | paduruakshayareddy@gmail.com
           </p>
           <p className="mt-3">
-            <BiPhoneCall /> : 9398001023 | 9100522056
+            <BiPhoneCall /> : 9398001023 | 99494 33335
           </p>
           <p className="mt-3">
             <BiSupport /> : 1800-0000-0000 (toll free)

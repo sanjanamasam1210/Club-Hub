@@ -56,10 +56,11 @@ const ProductDetails = () => {
           <h6>Description : {product.description}</h6>
           <h6>
             Year :
-            {product?.price?.toLocaleString("en-US", {
-            })}
+            {product?.price}
           </h6>
           <h6>Club : {product?.category?.name}</h6>
+          
+          <h6>No.of Participants : {product?.quantity}</h6>
         </div>
       </div>
       <hr />
