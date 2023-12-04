@@ -102,4 +102,6 @@ filters
 .search-form .btn:hover{
   background-color: #e1cece;
 }
-
+.card-price{
+  color:#DBA39A !important;
+}
