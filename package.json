@@ -1,7 +1,7 @@
 {
-  "name": "Ecommerce-app-2023",
+  "name": "Club app",
   "version": "1.0.0",
-  "description": "ecommerce rest api",
+  "description": "club rest api",
   "main": "server.js",
   "type": "module",
   "scripts": {
